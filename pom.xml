@@ -5,12 +5,22 @@
   <groupId>com.eneskacan</groupId>
   <artifactId>summarizer-maven-plugin</artifactId>
   <packaging>maven-plugin</packaging>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.0.1</version>
 
   <name>summarizer-maven-plugin Maven Mojo</name>
   <url>http://maven.apache.org</url>
 
+  <developers>
+    <developer>
+      <name>Enes</name>
+    </developer>
+    <developer>
+      <name>Ahmet</name>
+    </developer>
+  </developers>
+
   <properties>
+    <release.date>06.26.2022</release.date>
     <maven.compiler.target>1.8</maven.compiler.target>
     <maven.compiler.source>1.8</maven.compiler.source>
   </properties>
